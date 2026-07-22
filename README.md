@@ -11,3 +11,4 @@ A 14-day internship project focused on predicting a student's final exam score b
 * **Day 1**: Successfully set up the local development environment using Python, VS Code, Jupyter, and Git. Configured the baseline repository.
 * **Day 2**: Practiced Python fundamentals: variables, data lists, control flow loops, and custom logic functions.
 * **Day 3**: Explored NumPy arrays, indexing, vectorized mathematical calculations, and array statistics.
+* **Day 4**: Created `student_scores.csv`, loaded dataset using Pandas `read_csv()`, and inspected dataset structure.
