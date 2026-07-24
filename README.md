@@ -1,4 +1,3 @@
-
 # Student Score Prediction using Machine Learning
 
 A 14-day internship project with Codomax Digital Solutions focused on predicting a student's final exam score based on their daily study hours using Linear Regression.
@@ -10,8 +9,9 @@ A 14-day internship project with Codomax Digital Solutions focused on predicting
 
 ## Progress Log
 
-* **Day 1**: Set up local development environment using Python, VS Code, Jupyter, and Git. Initialized GitHub repository.
-* **Day 2**: Practiced Python fundamentals: variables, data lists, control flow loops, and helper functions.
-* **Day 3**: Explored NumPy arrays, indexing, vectorized mathematical calculations, and array statistics.
-* **Day 4**: Created `student_scores.csv`, loaded dataset using Pandas `read_csv()`, and inspected dataset structure.
-* **Day 5**: Conducted data cleaning checks for missing values/duplicates, and generated summary statistics using `.describe()`.
+* **Day 1**: Environment setup complete with Python, VS Code, Jupyter, and Git.
+* **Day 2**: Practiced Python fundamentals: variables, lists, loops, and custom functions.
+* **Day 3**: Explored NumPy arrays, vectorized math operations, and array statistics.
+* **Day 4**: Created `student_scores.csv`, loaded dataset using Pandas, and inspected structure.
+* **Day 5**: Conducted data cleaning procedures, checked for missing values/duplicates, and analyzed statistics.
+* **Day 6**: Built scatter plots, bar charts, and line charts using Matplotlib to visualize feature correlations.
