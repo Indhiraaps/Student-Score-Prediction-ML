@@ -7,6 +7,7 @@ A 14-day internship project with Codomax Digital Solutions focused on predicting
 * `student_scores.csv` - Raw dataset file containing study hours and score records.
 * `student_score_prediction.ipynb` - Core Jupyter Notebook containing data processing, exploratory analysis, and modeling.
 
+
 ## Progress Log
 
 * **Day 1**: Environment setup complete with Python, VS Code, Jupyter, and Git.
@@ -15,3 +16,4 @@ A 14-day internship project with Codomax Digital Solutions focused on predicting
 * **Day 4**: Created `student_scores.csv`, loaded dataset using Pandas, and inspected structure.
 * **Day 5**: Conducted data cleaning procedures, checked for missing values/duplicates, and analyzed statistics.
 * **Day 6**: Built scatter plots, bar charts, and line charts using Matplotlib to visualize feature correlations.
+* **Day 7**: Understood Supervised Learning concepts, isolated feature X and target y, and implemented train-test data splitting.
