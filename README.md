@@ -17,3 +17,4 @@ A 14-day internship project with Codomax Digital Solutions focused on predicting
 * **Day 5**: Conducted data cleaning procedures, checked for missing values/duplicates, and analyzed statistics.
 * **Day 6**: Built scatter plots, bar charts, and line charts using Matplotlib to visualize feature correlations.
 * **Day 7**: Understood Supervised Learning concepts, isolated feature X and target y, and implemented train-test data splitting.
+* **Day 8**: Initialized and trained a Linear Regression model using Scikit-learn and extracted learned slope and intercept parameters.
