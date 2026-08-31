@@ -6,25 +6,23 @@ def start_prediction_app():
     print("   STUDENT EXAM SCORE PREDICTION SYSTEM   ")
     print("=" * 50)
 
-    # Step 1: Load the trained model file
+    # Step 1: Load the trained model from the models/ subdirectory
     try:
-        model = joblib.load('student_score_model.pkl')
-        print("Model loaded successfully!\n")
+        model = joblib.load('models/student_score_model.pkl')
+        print("Model loaded successfully from models/ folder!\n")
     except FileNotFoundError:
-        print("Error: 'student_score_model.pkl' not found.")
-        print("Please run your Jupyter Notebook first to train and export the model.")
+        print("Error: 'models/student_score_model.pkl' file not found.")
+        print("Please train and export the model from your notebook first.")
         return
 
-    # Step 2: Interactive input loop
+    # Interactive loop for predictions
     while True:
         user_input = input("Enter daily study hours (or type 'exit' to quit): ").strip()
 
-        # Allow user to quit
         if user_input.lower() == 'exit':
-            print("\nThank you for using the Prediction System! Goodbye!")
+            print("\nThank you for using the Prediction System! Good luck!")
             break
 
-        # Step 3: Validate input
         try:
             hours = float(user_input)
 
@@ -35,13 +33,11 @@ def start_prediction_app():
                 print("A day has only 24 hours! Please enter a realistic number.\n")
                 continue
 
-            # Step 4: Format input into a DataFrame matching training features
+            # Format input matching feature DataFrame
             input_data = pd.DataFrame({'Hours': [hours]})
 
-            # Step 5: Generate score prediction
+            # Generate score prediction
             predicted_score = model.predict(input_data)[0]
-
-            # Step 6: Cap percentage output logically between 0% and 100%
             final_score = max(0, min(100, predicted_score))
 
             print("-" * 40)

@@ -18,4 +18,6 @@ A 14-day internship project with Codomax Digital Solutions focused on predicting
 * **Day 7**: Understood Supervised Learning concepts, isolated feature X and target y, and implemented train-test data splitting.
 * **Day 8**: Initialized and trained a Linear Regression model using Scikit-learn and extracted learned slope and intercept parameters.
 * **Day 9**: Generated predictions on test dataset using `.predict()` and built actual vs. predicted comparison tables.
-* **Day 10**: Evaluated model performance metrics (MAE, MSE, RMSE, R² Score) and plotted best-fitting regression line
+* **Day 10**: Evaluated model performance metrics (MAE, MSE, RMSE, R² Score) and plotted best-fitting regression line.
+* **Day 11**: Exported trained Linear Regression model to `.pkl` format using `joblib` and created an interactive Python CLI prediction application with input validation.
+  10. LinkedIn Post Template.
