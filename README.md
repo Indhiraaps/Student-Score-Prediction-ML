@@ -21,3 +21,20 @@ A 14-day internship project with Codomax Digital Solutions focused on predicting
 * **Day 10**: Evaluated model performance metrics (MAE, MSE, RMSE, R² Score) and plotted best-fitting regression line.
 * **Day 11**: Exported trained Linear Regression model to `.pkl` format using `joblib` and created an interactive Python CLI prediction application with input validation.
   10. LinkedIn Post Template.
+* **Day 12** : Refactored project directory structure into `data/`, `models/`, and `scripts/`, updated relative file paths, added `.gitignore`, and polished notebook formatting^^.
+
+## Project Structure
+
+```text
+Student-Score-Prediction-ML/
+│
+├── data/
+│   └── student_scores.csv
+├── models/
+│   └── student_score_model.pkl
+├── scripts/
+│   └── predict_app.py
+├── .gitignore
+├── README.md
+└── student_score_prediction.ipynb
+```
